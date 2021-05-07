@@ -2,15 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "CurseOfHoes",
-      "type": "enchantment",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "curse_of_hoes"
-    },
-    {
       "name": "CurseOfHoesUsed",
       "type": "procedure",
       "sortid": 2,
@@ -21,14 +12,47 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "CurseOfHoes",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_hoes"
+    },
+    {
+      "name": "CurseOfSobering",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_sobering"
+    },
+    {
+      "name": "SoberPlayer",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sober_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "enchantment.minecraft_cursed.curse_of_hoes": "Curse Of Hoes"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

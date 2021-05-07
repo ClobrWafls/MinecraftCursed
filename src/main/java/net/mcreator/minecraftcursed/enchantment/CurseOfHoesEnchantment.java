@@ -1,20 +1,12 @@
 
 package net.mcreator.minecraftcursed.enchantment;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.enchantment.Enchantment;
-
-import net.mcreator.minecraftcursed.MinecraftCursedModElements;
-
 @MinecraftCursedModElements.ModElement.Tag
 public class CurseOfHoesEnchantment extends MinecraftCursedModElements.ModElement {
+
 	@ObjectHolder("minecraft_cursed:curse_of_hoes")
 	public static final Enchantment enchantment = null;
+
 	public CurseOfHoesEnchantment(MinecraftCursedModElements instance) {
 		super(instance, 1);
 	}
@@ -23,7 +15,9 @@ public class CurseOfHoesEnchantment extends MinecraftCursedModElements.ModElemen
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("curse_of_hoes"));
 	}
+
 	public static class CustomEnchantment extends Enchantment {
+
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.COMMON, EnchantmentType.BREAKABLE, slots);
 		}
@@ -69,5 +63,7 @@ public class CurseOfHoesEnchantment extends MinecraftCursedModElements.ModElemen
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
+
 	}
+
 }
