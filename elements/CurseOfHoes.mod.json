@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Curse Of Hoes",
+    "type": "BREAKABLE",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "Items.WOODEN_HOE"
+      },
+      {
+        "value": "Items.STONE_HOE"
+      },
+      {
+        "value": "Items.IRON_HOE"
+      },
+      {
+        "value": "Items.GOLDEN_HOE"
+      },
+      {
+        "value": "Items.DIAMOND_HOE"
+      },
+      {
+        "value": "Items.NETHERITE_HOE"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": true,
+    "isAllowedOnBooks": true
+  }
+}

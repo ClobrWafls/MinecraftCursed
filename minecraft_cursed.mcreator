@@ -1,10 +1,34 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CurseOfHoes",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_hoes"
+    },
+    {
+      "name": "CurseOfHoesUsed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_hoes_used",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "enchantment.minecraft_cursed.curse_of_hoes": "Curse Of Hoes"
+    }
   },
   "foldersRoot": {
     "name": "~",
